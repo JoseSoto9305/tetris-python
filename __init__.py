@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 __project__ = 'TETRIS'
-__file__ = './tetris.py'
+__file__ = './__init__.py'
 __license__ = 'GPL'
 __version__ = '1.0'
 __date__ = 'May, 2020'
