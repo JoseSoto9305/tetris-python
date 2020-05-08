@@ -410,7 +410,7 @@ class Tetris:
     
     def is_losser(self):
         loss = False
-        if any(rect.bottom < config.game_boundaries[1] for rect in shape.dropped):
+        if any(rect.bottom <= config.game_boundaries[1] for rect in shape.dropped):
             loss = True
         return loss
         
