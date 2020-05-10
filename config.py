@@ -66,8 +66,8 @@ class Configuration:
         self.larger_text = 45
         self.huge_text = 150
 
-        self.set_objects_sizes()
-        self.set_buttons_size()
+        self.set_objects_positions()
+        self.set_buttons_positions()
 
         # Enable big shapes
         self.big_shapes = False
@@ -175,7 +175,7 @@ class Configuration:
 
     # / ----------------------------------------------------------------------- \
 
-    def set_buttons_size(self):
+    def set_buttons_positions(self):
         
         scale = 1092 / 350
 
@@ -254,7 +254,7 @@ class Configuration:
 
     # / ----------------------------------------------------------------------- \
     
-    def set_objects_sizes(self):        
+    def set_objects_positions(self):        
 
         # Another objetc to display in the game
         self.rects = {'game_boundaries' : pg.Rect(self.game_boundaries[0], 

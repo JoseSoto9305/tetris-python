@@ -431,7 +431,7 @@ class Tetris:
     def change_ncols(self, value):
         grid_size = [i for i in config.grid_sizes if i[1] == value][-1]
         config.nrows, config.ncols, config.block_size, config.game_boundaries = grid_size
-        config.set_objects_sizes()
+        config.set_objects_positions()
         score.restart()
 
     # / ----------------------------------------------------------------------- \
