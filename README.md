@@ -1,4 +1,7 @@
 # Tetris-python
+
+---
+
 A tetris implementation with python
 
 ![Image0](https://github.com/JoseSoto9305/tetris-python/blob/master/Images/Image0.png)
@@ -13,7 +16,7 @@ A tetris implementation with python
 
 <br> 
 
-The codes have been tested with Python 3.6 on Debian based linux distributions (Mint 19, Ubuntu 16).<br>
+The codes have been tested with Python 3.6 and 3.7 on Debian based linux distributions (Mint 19, Ubuntu 16).<br>
 You only need pygame installed on your computer:
 
 ```
@@ -27,6 +30,8 @@ To run the game just type:
 ```
 python tetris.py
 ```
+![Image2](https://github.com/JoseSoto9305/tetris-python/blob/master/Images/Image2.png)
+![Image3](https://github.com/JoseSoto9305/tetris-python/blob/master/Images/Image3.png)
 
 
 
