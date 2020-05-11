@@ -152,7 +152,7 @@ class Configuration:
             window_h = self.window_h
 
         # Scaling the text
-        font = pg.font.SysFont('purisa', int(font_size * window_h / self.reference_h))
+        font = pg.font.Font('./font/Purisa.ttf', int(font_size * window_h / self.reference_h))
         text_surface = font.render(text, True, color)
 
         text_w, text_h = text_surface.get_size()
