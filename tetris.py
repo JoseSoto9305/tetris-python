@@ -11,7 +11,6 @@ __maintainer__ = 'Jose Trinidad Soto Gonzalez'
 # / -------------------------------------------------------------------------- \
 
 import os
-import random
 import string
 import pygame as pg
 
