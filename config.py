@@ -176,8 +176,6 @@ class Configuration:
     # / ----------------------------------------------------------------------- \
 
     def set_buttons_positions(self):
-        
-        scale = 1092 / 350
 
         w_button1 = self.window_w / 3.5
         w_button2 = self.window_w / 7.5
